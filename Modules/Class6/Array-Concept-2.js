@@ -17,6 +17,10 @@
  *      Array-Concept-2.js
  *          Use of []
  *          join()
+ *          pop()
+ *          shift()
+ *          push()
+ *          unshift()
  * 
  */
 
@@ -190,7 +194,7 @@ console.log(`digitsJoin1 -> ${digitsJoin1}`);
  * return: the removed value
  * 
  * to remove value from array
- *      pop() vs shift()
+ *      pop() vs shift() vs splice()
  * 
  * 
  * NOTE: the function changes the original array
@@ -258,7 +262,7 @@ console.log(`Given array (after removing) -> ${givenArray}`);           // ['EaR
  * return: the new-length of array
  * 
  * to add value in an array
- *      push() vs unshift()
+ *      push() vs unshift() vs splice() vs concat()
  * 
  * NOTE: the function changes the original array
  */
@@ -290,9 +294,6 @@ console.log(`sports -> ${sports}`);                                     // sport
 let sportsNewLength4 = sports.unshift('iCe HocKEy');                    // 7
 console.log(`New length after unshift() -> ${sportsNewLength4}`);
 console.log(`sports -> ${sports}`);                                     // sports = ['iCe HocKEy', 'jUmPing', 'GOLf', 'HocKEy', 'MaraTHon', 'BadMinTon', 'sKaTes']
-
-
-
 
 /**
  * Convert the given 4-word sentence into Titlecase
