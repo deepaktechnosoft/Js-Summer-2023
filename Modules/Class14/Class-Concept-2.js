@@ -12,7 +12,8 @@ class ClassConcept2 {
      * 
      * 
      * When we create object of a class
-     *      -> the object gets it's own set of global variables with default values
+     *      -> the object gets it's own set of (non-static) global variables with default values; and
+     *          ALL objects shares the static variables.
      *      -> using the object, we can access the variables and functions present in that class
      * 
      * 
