@@ -24,7 +24,7 @@
  *      same name but more than 1 form
  *      when we have two or more functions with SAME name
  *      Types:
- *      1. Compile Time Polymorphism (Static Binding, Method Overloading) -> does NOT exit in JS
+ *      1. Compile Time Polymorphism (Static Binding, Method Overloading) -> does NOT exist in JS
  *          In a class, when we have two or more functions with SAME name but different input-parameters.
  *          Ways to set different input-parameters:
  *          a) different number of input-parameters
